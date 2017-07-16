@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.livich.privatebin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.livich.privatebin.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.livich.privatebin.ShareActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+            <intent-filter android:label="@string/s_share_action_label">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.livich.privatebin.ShareService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="" />
+
+        <activity android:name="com.livich.privatebin.InfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.livich.privatebin.SettingsActivity" />
+    </application>
+
+</manifest>

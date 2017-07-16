@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PrivateBin</string>
+    <string name="s_share_action_label">PrivateBin</string>
+    <string name="s_share_using_label">Choose an app</string>
+    <string name="s_title_activity_settings">Settings</string>
+    <string name="s_share_message">Hi! Let\'s use PrivateBin for Android https://privatebin.lilikovych.name/</string>
+    <string name="s_share_theme">Switch to PrivateBin</string>
+    <string name="url_help">https://lilikovych.name/</string>
+    <string name="s_error_host">There is an error in the application settings. Please check PrivateBin host setting.</string>
+    <string name="s_share_dialog">Your paste will be shared on %s securely. Continue?</string>
+    <string name="s_unknown_host">unknown host</string>
+    <string name="s_url_title">Paste URL</string>
+    <string name="s_link_copied">Link copied to the clipboard</string>
+    <string name="s_paste_error">Paste publishing error</string>
+    <string name="s_about">PrivateBin Android client α by Sergiy Lilikovych
+        \nVisit lilikovych.name/pb for more information</string>
+    <string name="s_close">Close</string>
+    <string name="s_settings">Settings…</string>
+    <string name="s_cancel">Cancel</string>
+    <string name="s_share">Share</string>
+    <string name="s_https">HTTPS</string>
+    <string name="s_def_host">privatebin.lilikovych.name</string>
+</resources>

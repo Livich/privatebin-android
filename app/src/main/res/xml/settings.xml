@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:dialogTitle="PrivateBin server address"
+        android:inputType="textUri"
+        android:key="host"
+        android:password="false"
+        android:summary="Hostname or IP"
+        android:title="Server address" />
+    <ListPreference
+        android:title="Paste expiration time"
+        android:summary="Select default lifetime for your pastes"
+        android:key="expiration"
+        android:entries="@array/z_expiration"
+        android:entryValues="@array/z_expiration_values" />
+    <CheckBoxPreference
+        android:key="open_discussion"
+        android:title="Open discussion"
+        android:summary="Allow users to add comments to paste"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="burn"
+        android:title="Burn after reading"
+        android:summary="Remove paste after reading by shared link"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="syntaxcoloring"
+        android:title="Syntax coloring"
+        android:summary="Enable syntax coloring"
+        android:defaultValue="false" />
+    <ListPreference
+        android:entries="@array/z_protocol"
+        android:entryValues="@array/z_protocol_values"
+        android:key="protocol"
+        android:summary="Force HTTP(S) usage"
+        android:title="Communication protocol" />
+    <EditTextPreference
+        android:dialogTitle="PrivateBin server port"
+        android:inputType="number"
+        android:key="port"
+        android:numeric="integer"
+        android:password="false"
+        android:summary="Set up communication port. 80 is default for HTTP, 443 is for HTTPS"
+        android:title="Server port" />
+
+</PreferenceScreen>

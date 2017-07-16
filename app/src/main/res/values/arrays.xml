@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="z_expiration">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>1 hour</item>
+        <item>1 day</item>
+        <item>1 week</item>
+        <item>1 month</item>
+        <item>1 year</item>
+    </string-array>
+    <string-array name="z_expiration_values">
+        <item>5min</item>
+        <item>10min</item>
+        <item>1hour</item>
+        <item>1day</item>
+        <item>1week</item>
+        <item>1month</item>
+        <item>1year</item>
+    </string-array>
+    <string-array name="z_protocol">
+        <item>HTTP</item>
+        <item>HTTPS</item>
+    </string-array>
+    <string-array name="z_protocol_values">
+        <item>http</item>
+        <item>https</item>
+    </string-array>
+</resources>
